@@ -87,31 +87,70 @@ const products = [
   },
   {
     id: 10,
-    name: "Fatia Ninho com Nutella",
+    name: "Copo Sensação",
     href: "#",
-    price: "R$ 22,90",
+    price: "R$ 19,90",
     imageSrc:
-      "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202201281352_AWMX_i.jpg",
+      "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202107262253_0C0L_i.jpg",
     imageAlt:
       "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
   },
   {
     id: 11,
-    name: "Fatia Ninho com Nutella",
+    name: "Docinhos Gourmet",
     href: "#",
-    price: "R$ 22,90",
+    price: "R$ 36,00",
     imageSrc:
-      "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202201281352_AWMX_i.jpg",
+      "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202104232253_8cvy_s.jpg",
     imageAlt:
       "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
   },
   {
     id: 12,
-    name: "Fatia Ninho com Nutella",
+    name: "Cestinha Ninho com Nutella",
     href: "#",
-    price: "R$ 22,90",
+    price: "R$ 13,00",
     imageSrc:
-      "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202201281352_AWMX_i.jpg",
+      "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202111251333_QIpK_p.jpg",
+    imageAlt:
+      "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
+  },
+  {
+    id: 13,
+    name: "Barra Recheada",
+    href: "#",
+    price: "R$ 27,90",
+    imageSrc:
+      "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202204222142_dmIo_d.jpg",
+    imageAlt:
+      "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
+  },
+  {
+    id: 14,
+    name: "Coca Cola",
+    href: "#",
+    price: "R$ 5,00",
+    imageSrc: "https://mrgreenfreshfood.ie/wp-content/uploads/2019/06/cco.jpg",
+    imageAlt:
+      "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
+  },
+  {
+    id: 15,
+    name: "Água sem gás",
+    href: "#",
+    price: "R$ 3,00",
+    imageSrc:
+      "https://mlwmd15vxdwc.i.optimole.com/LQceuAc-JUWnk89v/w:440/h:460/q:mauto/https://dasbraunbier.com.br/wp-content/uploads/2020/12/agua-500.jpg",
+    imageAlt:
+      "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
+  },
+  {
+    id: 16,
+    name: "Água com gás",
+    href: "#",
+    price: "R$ 13,00",
+    imageSrc:
+      "https://bighiper.vtexassets.com/arquivos/ids/168065/image789643610064-1.jpg?v=637392393343370000",
     imageAlt:
       "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
   },

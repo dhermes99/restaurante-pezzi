@@ -41,7 +41,7 @@ const navigation = {
           ],
         },
         {
-          id: "accessories",
+          id: "combos",
           name: "Combos",
           items: [
             { name: "Chocolate quente", href: "#" },
@@ -61,47 +61,53 @@ const navigation = {
       ],
     },
     {
-      id: "tortas",
-      name: "Tortas",
+      id: "bebidas",
+      name: "Bebidas",
       featured: [
         {
-          name: "New Arrivals",
+          name: "Combo água mineral",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg",
+            "https://www.pioneirateleagua.com.br/wp-content/uploads/2021/05/agua500-agua-pedra.jpg",
           imageAlt:
             "Drawstring top with elastic loop closure and textured interior padding.",
         },
         {
-          name: "Artwork Tees",
+          name: "Coca cola sem açúcar",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-06.jpg",
+            "https://images.tcdn.com.br/img/img_prod/858764/refrigerante_coca_cola_zero_lata_350ml_c_12_365_1_20201021152513.jpg",
           imageAlt:
             "Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.",
         },
       ],
       sections: [
         {
-          id: "clothing",
-          name: "Clothing",
+          id: "bebidas500",
+          name: "Bebidas 500ml",
           items: [
-            { name: "Tops", href: "#" },
-            { name: "Pants", href: "#" },
+            { name: "Água com gás", href: "#" },
+            { name: "Água sem gás", href: "#" },
+            { name: "Coca cola", href: "#" },
           ],
         },
         {
-          id: "accessories",
-          name: "Accessories",
+          id: "bebidas300",
+          name: "Bebidas 330ml",
           items: [
-            { name: "Watches", href: "#" },
-            { name: "Wallets", href: "#" },
+            { name: "Água com gás", href: "#" },
+            { name: "Água sem gás", href: "#" },
+            { name: "Coca cola", href: "#" },
           ],
         },
         {
-          id: "brands",
-          name: "Brands",
-          items: [{ name: "Re-Arranged", href: "#" }],
+          id: "bebida1,5",
+          name: "Bebidas 1,5L",
+          items: [
+            { name: "Água com gás", href: "#" },
+            { name: "Água sem gás", href: "#" },
+            { name: "Coca cola", href: "#" },
+          ],
         },
       ],
     },
@@ -120,10 +126,10 @@ export default function Home() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="bg-rose-400">
+    <div className="bg-rose-400 z-50">
       {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
-        <Dialog as="div" className="relative z-40 lg:hidden" onClose={setOpen}>
+        <Dialog as="div" className="relative z-50 lg:hidden" onClose={setOpen}>
           <Transition.Child
             as={Fragment}
             enter="transition-opacity ease-linear duration-300"
@@ -136,7 +142,7 @@ export default function Home() {
             <div className="fixed inset-0 bg-black bg-opacity-25" />
           </Transition.Child>
 
-          <div className="fixed inset-0 flex z-40">
+          <div className="fixed inset-0 flex z-50">
             <Transition.Child
               as={Fragment}
               enter="transition ease-in-out duration-300 transform"
@@ -146,7 +152,7 @@ export default function Home() {
               leaveFrom="translate-x-0"
               leaveTo="-translate-x-full"
             >
-              <Dialog.Panel className="relative max-w-xs w-full bg-rose-400 shadow-xl pb-12 flex flex-col overflow-y-auto">
+              <Dialog.Panel className="relative max-w-xs w-full bg-rose-400 shadow-xl pb-12 flex flex-col overflow-y-auto z-50">
                 <div className="px-4 pt-5 pb-2 flex">
                   <button
                     type="button"
@@ -203,7 +209,7 @@ export default function Home() {
                                 className="mt-6 block font-medium text-gray-900"
                               >
                                 <span
-                                  className="absolute z-10 inset-0"
+                                  className="absolute z-50 inset-0"
                                   aria-hidden="true"
                                 />
                                 {item.name}
@@ -315,7 +321,7 @@ export default function Home() {
               </div>
 
               {/* Flyout menus */}
-              <Popover.Group className="hidden lg:ml-8 lg:block lg:self-stretch">
+              <Popover.Group className="hidden lg:ml-8 lg:block lg:self-stretch z-50">
                 <div className="h-full flex space-x-8">
                   {navigation.categories.map((category) => (
                     <Popover key={category.name} className="flex">
