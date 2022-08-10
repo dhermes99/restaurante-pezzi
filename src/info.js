@@ -1,6 +1,3 @@
-import Button from "./button";
-import { Link } from "react-router-dom";
-
 const products = [
   {
     id: 1,
@@ -9,7 +6,7 @@ const products = [
     price: "R$ 21,90",
     imageSrc:
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202201281244_YJ8O_i.jpg",
-    imageAlt: "Brownie, brigadeiro gourmet branco, Nutella e Kinder Bueno",
+    description: "Brownie, brigadeiro gourmet branco, Nutella e Kinder Bueno",
   },
   {
     id: 2,
@@ -18,7 +15,7 @@ const products = [
     price: "R$ 19,90",
     imageSrc:
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202201281353_42CG_i.jpg",
-    imageAlt: "Brownie, brigadeiro gourmet branco, Nutella e mini Oreo",
+    description: "Brownie, brigadeiro gourmet branco, Nutella e mini Oreo",
   },
   {
     id: 3,
@@ -27,7 +24,7 @@ const products = [
     price: "R$ 21,90",
     imageSrc:
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202201281354_RTQH_i.jpg",
-    imageAlt: "Brownie, brigadeiro gourmet preto, Nutella e Stikadinho",
+    description: "Brownie, brigadeiro gourmet preto, Nutella e Stikadinho",
   },
   {
     id: 4,
@@ -36,7 +33,7 @@ const products = [
     price: "R$ 22,90",
     imageSrc:
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202201281352_AWMX_i.jpg",
-    imageAlt:
+    description:
       "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
   },
   {
@@ -46,7 +43,7 @@ const products = [
     price: "R$ 17,90",
     imageSrc:
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202201281241_QP5O_i.jpg",
-    imageAlt:
+    description:
       "Brownie, brigadeiro gourmet preto, brigadeiro gourmet branco e confeitos nobres 100% chocolate.",
   },
   {
@@ -56,7 +53,7 @@ const products = [
     price: "R$ 21,90",
     imageSrc:
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202201281242_I5OM_i.jpg",
-    imageAlt:
+    description:
       "Brownie, brigadeiro gourmet preto, Nutella, castanhas e Ferrero Rocher.",
   },
   {
@@ -66,7 +63,7 @@ const products = [
     price: "R$ 21,90",
     imageSrc:
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202201281245_0K6U_i.jpg",
-    imageAlt: "Brownie, brigadeiro gourmet preto, Nutella e M&M's.",
+    description: "Brownie, brigadeiro gourmet preto, Nutella e M&M's.",
   },
   {
     id: 8,
@@ -75,7 +72,7 @@ const products = [
     price: "R$ 22,90",
     imageSrc:
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202201281246_21AU_i.jpg",
-    imageAlt:
+    description:
       "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
   },
   {
@@ -85,7 +82,7 @@ const products = [
     price: "R$ 9,00",
     imageSrc:
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202103131322_EiZ3_p.jpg",
-    imageAlt:
+    description:
       "Casca de chocolate Blend com recheio de brigadeiro branco e Oreo",
   },
   {
@@ -95,7 +92,7 @@ const products = [
     price: "R$ 19,90",
     imageSrc:
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202107262253_0C0L_i.jpg",
-    imageAlt:
+    description:
       "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
   },
   {
@@ -105,7 +102,7 @@ const products = [
     price: "R$ 36,00",
     imageSrc:
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202104232253_8cvy_s.jpg",
-    imageAlt:
+    description:
       "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
   },
   {
@@ -115,7 +112,7 @@ const products = [
     price: "R$ 13,00",
     imageSrc:
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202111251333_QIpK_p.jpg",
-    imageAlt:
+    description:
       "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
   },
   {
@@ -125,7 +122,7 @@ const products = [
     price: "R$ 27,90",
     imageSrc:
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202204222142_dmIo_d.jpg",
-    imageAlt:
+    description:
       "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
   },
   {
@@ -134,7 +131,7 @@ const products = [
     href: "#",
     price: "R$ 5,00",
     imageSrc: "https://mrgreenfreshfood.ie/wp-content/uploads/2019/06/cco.jpg",
-    imageAlt:
+    description:
       "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
   },
   {
@@ -144,7 +141,7 @@ const products = [
     price: "R$ 3,00",
     imageSrc:
       "https://mlwmd15vxdwc.i.optimole.com/LQceuAc-JUWnk89v/w:440/h:460/q:mauto/https://dasbraunbier.com.br/wp-content/uploads/2020/12/agua-500.jpg",
-    imageAlt:
+    description:
       "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
   },
   {
@@ -154,37 +151,42 @@ const products = [
     price: "R$ 13,00",
     imageSrc:
       "https://bighiper.vtexassets.com/arquivos/ids/168065/image789643610064-1.jpg?v=637392393343370000",
-    imageAlt:
+    description:
       "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella.",
   },
 ];
 
-export default function Products() {
+export default function Info() {
   return (
     <div className="bg-white">
-      <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-        <h2 className="sr-only">Produtos</h2>
+      <div className="max-w-2xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+        <div>
+          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            Technical Specifications
+          </h2>
+          <p className="mt-4 text-gray-500">
+            The walnut wood card tray is precision milled to perfectly fit a
+            stack of Focus cards. The powder coated steel divider separates
+            active cards from new ones, or can be used to archive important task
+            lists.
+          </p>
 
-        <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-          {products.map((product) => (
-            <a key={product.id} href={product.href} className="group">
-              <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                <img
-                  src={product.imageSrc}
-                  alt={product.imageAlt}
-                  className="w-full h-full object-center object-cover group-hover:opacity-75"
-                />
+          <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+            {products.map((product) => (
+              <div key={product.id} className="border-t border-gray-200 pt-4">
+                <dt className="font-medium text-gray-900">{product.name}</dt>
+                <p>{product.description}</p>
+                <dd className="mt-2 text-sm text-gray-500">{product.price}</dd>
+                <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
+                  <img
+                    src={product.imageSrc}
+                    alt={product.description}
+                    className="w-full h-full object-center object-cover group-hover:opacity-75"
+                  />
+                </div>
               </div>
-              <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
-              <p className="mt-1 text-lg font-medium text-gray-900">
-                {product.price}
-                <br></br>
-                <Link to={`/info/${product.id}`}>
-                  <Button />
-                </Link>
-              </p>
-            </a>
-          ))}
+            ))}
+          </dl>
         </div>
       </div>
     </div>
