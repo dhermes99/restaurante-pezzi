@@ -273,20 +273,12 @@ export default function Navbar() {
                   </div>
 
                   <div className="border-t border-gray-200 py-6 px-4 space-y-6">
-                    <div className="flow-root">
-                      <a
-                        href="#"
-                        className="-m-2 p-2 block font-medium text-gray-900"
-                      >
-                        Entrar
-                      </a>
-                    </div>
                     <Link to="/login">
                       <div className="flow-root">
-                        <a
-                          href="#"
-                          className="-m-2 p-2 block font-medium text-gray-900"
-                        >
+                        <span>Entrar</span>
+                      </div>
+                      <div className="flow-root">
+                        <a className="-m-2 p-2 block font-medium text-gray-900">
                           Criar conta
                         </a>
                       </div>
@@ -318,17 +310,18 @@ export default function Navbar() {
                   <MenuIcon className="h-6 w-6" aria-hidden="true" />
                 </button>
 
-                {/* Logo */}
-                <div className="ml-4 flex lg:ml-0">
-                  <Link to="/">
-                    <span className="sr-only">Pezzi</span>
-                    <img
-                      className="h-8 w-auto"
-                      src="https://scontent.fdub6-1.fna.fbcdn.net/v/t1.6435-9/159981362_278992537066979_1599067544699015802_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=973b4a&_nc_ohc=L32x9Fiarn0AX8cKqPA&_nc_ht=scontent.fdub6-1.fna&oh=00_AT_oRY3vXwA4LShZARC_TMeScdxMeLcIHnSqA3b28xvUQQ&oe=6313A5C3"
-                      alt=""
-                    />
-                  </Link>
-                </div>
+                <Link to="/">
+                  <div className="ml-4 flex lg:ml-0">
+                    <a href="#">
+                      <span className="sr-only">Pezzi</span>
+                      <img
+                        className="h-8 w-auto"
+                        src="https://scontent.fdub6-1.fna.fbcdn.net/v/t1.6435-9/159981362_278992537066979_1599067544699015802_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=973b4a&_nc_ohc=L32x9Fiarn0AX8cKqPA&_nc_ht=scontent.fdub6-1.fna&oh=00_AT_oRY3vXwA4LShZARC_TMeScdxMeLcIHnSqA3b28xvUQQ&oe=6313A5C3"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </Link>
 
                 {/* Flyout menus */}
                 <Popover.Group className="hidden lg:ml-8 lg:block lg:self-stretch z-50">
@@ -456,27 +449,22 @@ export default function Navbar() {
 
                 <div className="ml-auto flex items-center">
                   <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                    <a
-                      href="#"
-                      className="text-sm font-medium text-gray-700 hover:text-gray-800"
-                    >
-                      Entrar
-                    </a>
+                    <Link to="/login">
+                      <div>
+                        <a className="text-sm font-medium text-gray-700 hover:text-gray-800">
+                          Entrar
+                        </a>
+                      </div>
+                    </Link>
                     <span className="h-6 w-px bg-gray-200" aria-hidden="true" />
-                    <a
-                      href="#"
-                      className="text-sm font-medium text-gray-700 hover:text-gray-800"
-                    >
+                    <a className="text-sm font-medium text-gray-700 hover:text-gray-800">
                       Criar conta
                     </a>
                   </div>
 
                   {/* Search */}
                   <div className="flex lg:ml-6">
-                    <a
-                      href="#"
-                      className="p-2 text-gray-400 hover:text-gray-500"
-                    >
+                    <a className="p-2 text-gray-400 hover:text-gray-500">
                       <span className="sr-only">Pesquisar</span>
                       <SearchIcon className="w-6 h-6" aria-hidden="true" />
                     </a>
