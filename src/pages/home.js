@@ -8,6 +8,7 @@ import {
 } from "@heroicons/react/outline";
 import Products from "../components/products";
 import Footer from "../components/footer";
+import SearchForm from "../components/SearchForm";
 
 const navigation = {
   categories: [
@@ -468,16 +469,7 @@ export default function Home() {
                     </a>
                   </div>
 
-                  {/* Search */}
-                  <div className="flex lg:ml-6">
-                    <a
-                      href="#"
-                      className="p-2 text-gray-400 hover:text-gray-500"
-                    >
-                      <span className="sr-only">Pesquisar</span>
-                      <SearchIcon className="w-6 h-6" aria-hidden="true" />
-                    </a>
-                  </div>
+                  <SearchForm />
 
                   {/* Cart */}
                   <div className="ml-4 flow-root lg:ml-6">
