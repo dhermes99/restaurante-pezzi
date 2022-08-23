@@ -466,6 +466,7 @@ export default function Navbar() {
                   <div className="flex lg:ml-6">
                     <a className="p-2 text-gray-400 hover:text-gray-500">
                       <span className="sr-only">Pesquisar</span>
+                      
                       <SearchIcon className="w-6 h-6" aria-hidden="true" />
                     </a>
                   </div>

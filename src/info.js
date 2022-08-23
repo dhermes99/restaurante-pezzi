@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import { useFetch } from "./hooks/useFetch";
+import Addinfo from "./pages/Addinfo";
 import Home from "./pages/home";
 
 export default function Info() {
@@ -35,6 +36,7 @@ export default function Info() {
             </div>
           </div>
         )}
+        <Addinfo />
       </div>
       <Footer />
     </div>
