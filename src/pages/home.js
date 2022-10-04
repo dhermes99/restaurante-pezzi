@@ -19,16 +19,14 @@ const navigation = {
         {
           name: "Docinhos Gourmet",
           href: "#",
-          imageSrc:
-            "https://scontent.fdub6-1.fna.fbcdn.net/v/t39.30808-6/261002013_453683072931257_905220981827180160_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=973b4a&_nc_ohc=E5jDqnTx-vMAX8-HnHw&_nc_ht=scontent.fdub6-1.fna&oh=00_AT_e_eWMNMrw3SgbGjucsra9ivKZGsa_dYqJVua0yP8JWw&oe=62F2954F",
+          imageSrc: "",
           imageAlt:
             "Models sitting back to back, wearing Basic Tee in black and bone.",
         },
         {
           name: "Fatias de brownie",
           href: "#",
-          imageSrc:
-            "https://scontent.fdub6-1.fna.fbcdn.net/v/t39.30808-6/241152233_393638718935693_4952649778376170651_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=973b4a&_nc_ohc=d5tOfK0Qhq8AX-eYWzv&_nc_oc=AQkV6ez1anCeh0drbb6D0JJNs3D7g7g44BCx4atCmJYKxASviCvCzM1B5SHtmJPgXBs&_nc_ht=scontent.fdub6-1.fna&oh=00_AT_TFzd2fQSqaBor8WczsVkkcaOhexL8f6-ebG4qi71QVA&oe=62F2BBAA",
+          imageSrc: "",
           imageAlt:
             "Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.",
         },

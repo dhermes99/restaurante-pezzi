@@ -7,11 +7,6 @@ export default function Footer() {
             href="https://www.instagram.com/pezzid.amore/"
             className="flex items-center"
           >
-            <img
-              src="https://scontent.fdub6-1.fna.fbcdn.net/v/t1.6435-9/159981362_278992537066979_1599067544699015802_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=L32x9Fiarn0AX8BDIj_&_nc_ht=scontent.fdub6-1.fna&oh=00_AT-Fy_uXylO4xUqWrUkdRMSxpFj7Nznn72qy9uXK8r9ZwA&oe=6313A5C3"
-              className="mr-3 h-8"
-              alt="FlowBite Logo"
-            />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">
               Pezzi D'Amore Browneria
             </span>

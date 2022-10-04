@@ -3,7 +3,7 @@
     "products": [
       {
     "id": 1,
-    "name": "Fatia Kinder",
+    "name": "Fatia de Kinder",
     "href": "#",
     "price": "R$ 21,90",
     "imageSrc":
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "name": "Fatia Oreo",
+    "name": "Fatia de Oreo",
     "href": "#",
     "price": "R$ 19,90",
     "imageSrc":
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "name": "Fatia Stikadinho",
+    "name": "Fatia de Stikadinho",
     "href": "#",
     "price": "R$ 21,90",
     "imageSrc":
@@ -30,7 +30,7 @@
   },
   {
     "id": 4,
-    "name": "Fatia Ninho com Nutella",
+    "name": "Fatia de Ninho com Nutella",
     "href": "#",
     "price": "R$ 22,90",
     "imageSrc":
@@ -50,7 +50,7 @@
   },
   {
     "id": 6,
-    "name": "Fatia Ferrero Rocher",
+    "name": "Fatia de Ferrero Rocher",
     "href": "#",
     "price": "R$ 21,90",
     "imageSrc":
@@ -60,7 +60,7 @@
   },
   {
     "id": 7,
-    "name": "Fatia M&M's",
+    "name": "Fatia de M&M's",
     "href": "#",
     "price": "R$ 21,90",
     "imageSrc":
@@ -109,13 +109,13 @@
   },
   {
     "id": 12,
-    "name": "Cestinha Ninho com Nutella",
+    "name": "Cestinha de Ninho com Nutella",
     "href": "#",
     "price": "R$ 13,00",
     "imageSrc":
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202111251333_QIpK_p.jpg",
       "imageAlt":
-      "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella."
+      "Brownie, brigadeiro gourmet de leite ninho, nutella e 4 docinhos gourmet de ninho com nutella."
   },
   {
     "id": 13,
@@ -125,7 +125,7 @@
     "imageSrc":
       "https://static-images.ifood.com.br/image/upload/t_medium/pratos/0bf25b7d-dc15-4c85-a5e3-fb08ebf2367f/202204222142_dmIo_d.jpg",
       "imageAlt":
-      "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella."
+      "Brownie, brigadeiro gourmet de leite ninho, nutella e 4 docinhos gourmet de ninho com nutella."
   },
   {
     "id": 14,
@@ -134,7 +134,7 @@
     "price": "R$ 5,00",
     "imageSrc": "https://mrgreenfreshfood.ie/wp-content/uploads/2019/06/cco.jpg",
     "imageAlt":
-      "Brownie, brigadeiro gourmet de leite Ninho, Nutella e 4 docinhos gourmet de Ninho com Nutella."
+      "Brownie, brigadeiro gourmet de leite ninho, nutella e 4 docinhos gourmet de ninho com nutella."
   },
   {
     "id": 15,

@@ -273,16 +273,16 @@ export default function Navbar() {
                   </div>
 
                   <div className="border-t border-gray-200 py-6 px-4 space-y-6">
-                    <Link to="/login">
+                    <a href="http://localhost:3001/login">
                       <div className="flow-root">
-                        <span>Entrar</span>
+                        <p>Entrar</p>
                       </div>
                       <div className="flow-root">
                         <a className="-m-2 p-2 block font-medium text-gray-900">
                           Criar conta
                         </a>
                       </div>
-                    </Link>
+                    </a>
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
@@ -452,7 +452,7 @@ export default function Navbar() {
                     <Link to="/login">
                       <div>
                         <a className="text-sm font-medium text-gray-700 hover:text-gray-800">
-                          Entrar
+                          <a href="http://localhost:3001/login">Entrar</a>
                         </a>
                       </div>
                     </Link>
@@ -466,7 +466,7 @@ export default function Navbar() {
                   <div className="flex lg:ml-6">
                     <a className="p-2 text-gray-400 hover:text-gray-500">
                       <span className="sr-only">Pesquisar</span>
-                      
+
                       <SearchIcon className="w-6 h-6" aria-hidden="true" />
                     </a>
                   </div>
